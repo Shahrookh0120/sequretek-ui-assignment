@@ -6,14 +6,13 @@ const Graph = () => {
    
 	return (
 		<div className="container">
-			<h3 className="text-center my-5">graph summarizing the data</h3>
-			<div className="w-50 m-auto">
+			<h3 className="text-center my-5 ">1.Graph summarizing the data</h3>
+			<div className="m-auto border border-1 p-3">
 				<Chart
 					type="bar"
-					height={550}
+					height={500}
 					series={[
 						{
-							
 							data: [totalData, pageCount, page],
 						},
 					]}
